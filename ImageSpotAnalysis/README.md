@@ -18,7 +18,7 @@ To start the program, run the function Start_Dual_Color_Analysis.
 Before starting the program, the options should be specified in Setup_Options.
 
 Basic description:
-This program will analyze a stack of micrograph images of fluorescently labeled particles that have been imaged in two colors. In the case of the Biophysical Journal article, this referred to fluorescently labeled viral particles that also contained fluorescently tagged DNA-lipids. The goal of the program is to find the particles in one color, and then quantify the fluorescence intensity in both colors within the region of interest around each particle. The micrographs should be formatted as a stack of TIF images, 16-bit monochromatic. The default ordering should be the first color image (used to find the particles) followed by the second color image.
+This program will analyze a stack of micrograph images of fluorescently labeled particles (.tif files) that have been imaged in two colors. In the case of the Biophysical Journal article, this referred to fluorescently labeled viral particles that also contained fluorescently tagged DNA-lipids. The goal of the program is to find the particles in one color, and then quantify the fluorescence intensity in both colors within the region of interest around each particle. The micrographs should be formatted as a stack of TIF images, 16-bit monochromatic. The default ordering should be the first color image (used to find the particles) followed by the second color image.
 
 The general algorithm is as follows: 
 1) The program loads each image in the stack which will be used to locate the fluorescently labeled particles. This image is displayed as Figure 1. The second color image is displayed in Figure 2.
