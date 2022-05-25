@@ -11,7 +11,8 @@ This is a slightly modified version of the original code to analyze Sendai virus
 Modifications by:
 Bob Rawle and Amy Lam, Williams College, 2021
 Published online in conjunction with:
-Lam et al, 2021, Single virus assay reveals membrane determinants and mechanistic features of Sendai virus binding
+Lam et al, Single virus assay reveals membrane determinants and mechanistic features of Sendai virus binding, Biophysical Journal (2022)
+http://dx.doi.org/10.1016/j.bpj.2022.02.011
 
 To begin:
 To start the program, run the function Start_Dual_Color_Analysis.
